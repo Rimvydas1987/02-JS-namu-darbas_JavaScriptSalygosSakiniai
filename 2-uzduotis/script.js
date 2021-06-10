@@ -1,7 +1,7 @@
 function myFunction() {
 "use strict";
 
-
+//skaitmenys
 var num = document.getElementById("numb").value;
 if(num > 999) {
     num = 0;
@@ -16,7 +16,17 @@ var realDigits = digits.map(Number);
 
 document.getElementById("skaitmenys").innerHTML = "Skaitmenys : " + realDigits;
 
-console.log(realDigits);
+//suma
+var sumDigits = 0;
+for(var i = 0; i < realDigits.length; i++){
+sumDigits += realDigits[i]
+
+}
+
+document.getElementById("skaitmenusuma").innerHTML = "Skaitmenų suma : " + sumDigits;
+
+//sandauga
+
 
 
 
