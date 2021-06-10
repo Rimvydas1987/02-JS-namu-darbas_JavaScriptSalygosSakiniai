@@ -1,3 +1,5 @@
+II namų dabas.
+
 „Javascript sąlygos sakiniai“
 
 1. Suprogramuokite skriptą, kurioje parašius tam tikrą sekundžių kiekį, rodo  24 valandų, minučių, sekundžių formatu.
