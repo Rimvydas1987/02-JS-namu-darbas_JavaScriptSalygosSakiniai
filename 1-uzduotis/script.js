@@ -33,7 +33,7 @@ document.getElementById("s").innerHTML = "Sekundės: " + ls;
 
 
 
-//Mano sugalvotas, kurį pasirodo ne taip supratau.
+//Mano sugalvotas, pasirodo ne taip supratau užduotį.
 
 
 

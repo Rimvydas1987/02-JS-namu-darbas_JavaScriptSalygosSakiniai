@@ -1,12 +1,13 @@
-function myFunction() {
 "use strict";
+function myFunction() {
+
 
 //skaitmenys
 var num = document.getElementById("numb").value;
 if(num > 999) {
-    num = 0;
+    return false;
 }else if (num < 100){
-    num = 0;
+    return false;
 }else{
     num = num;
 }
